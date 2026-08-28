@@ -54,3 +54,10 @@
   .hero-slide .hero-copy>p:not(.eyebrow){display:none}
   .hero-actions{margin-top:16px}
 }
+
+
+/* Final compact hero-title scale */
+.hero-slider h1{font-size:clamp(2.15rem,3.25vw,3rem);line-height:1.02;max-width:620px;letter-spacing:-.025em}
+@media(max-width:1100px){.hero-slider h1{font-size:clamp(2.05rem,4.1vw,2.75rem);max-width:560px}}
+@media(max-width:800px){.hero-slider h1{font-size:clamp(1.9rem,8.5vw,2.3rem);line-height:1.02;max-width:92%;margin-bottom:16px}}
+@media(max-width:420px){.hero-slider h1{font-size:clamp(1.8rem,8.2vw,2.1rem)}}
