@@ -16,7 +16,7 @@ Complete four-page property website:
 
 ## Production build
 
-Run `npm run build`. All optimized property photographs are stored in `public/images`.
+Run `npm run build`. The project uses the standard Next.js build and is ready for Vercel. All optimized property photographs are stored in `public/images`.
 
 ## Property content used
 
