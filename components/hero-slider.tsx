@@ -7,7 +7,8 @@ import { useEffect, useState } from "react";
 const slides = [
   {src:"/images/hero-exterior.webp", alt:"Ceylon Vintage Verandha private villa exterior and garden", eyebrow:"A private three-bedroom villa in Ganemulla", title:<>Your Sri Lankan home,<br/><em>ready when you return.</em></>, text:"A spacious vacation rental for overseas families, expats and longer holiday stays—approximately 24 km from Bandaranaike International Airport."},
   {src:"/images/hero-living.webp", alt:"Bright living room at Ceylon Vintage Verandha", eyebrow:"The whole villa is yours", title:<>Live together.<br/><em>Stay comfortably.</em></>, text:"Multiple living spaces, a fitted kitchen, garden and broad verandha give your family room to settle in."},
-  {src:"/images/hero-bedroom.webp", alt:"Comfortable double bedroom prepared for guests", eyebrow:"A stay made for real life", title:<>Rest well.<br/><em>Stay a little longer.</em></>, text:"Three comfortable bedrooms and a minimum five-night stay make home visits and family holidays feel unrushed."},
+  {src:"/images/hero-kitchen.webp", alt:"Modern fitted kitchen at Ceylon Vintage Verandha", eyebrow:"Comfort for longer stays", title:<>Cook, gather<br/><em>and feel at home.</em></>, text:"A spacious fitted kitchen gives families the freedom and everyday convenience they need during longer Sri Lankan holidays."},
+  {src:"/images/hero-bedroom-clean.webp", alt:"Comfortable double bedroom prepared for guests", eyebrow:"A stay made for real life", title:<>Rest well.<br/><em>Stay a little longer.</em></>, text:"Three comfortable bedrooms and a minimum five-night stay make home visits and family holidays feel unrushed."},
 ];
 
 export function HeroSlider(){
